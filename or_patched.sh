@@ -3,7 +3,7 @@
 configure terminal
 no boot system
 no boot kickstart
-boot system bootflash:test_image_prashant.gbin
-boot kickstart bootflash:test2.gbin
+boot system bootflash:system_img.gbin
+boot kickstart bootflash:kickstart.gbin
 copy r s
 exit
